@@ -6,8 +6,8 @@ def otp_sender(email):
     TEXT = 'YOUR OTP TO LOGIN IS:' + otp
     s = smtplib.SMTP('smtp.gmail.com', 587)
     s.starttls()
-    s.login('group4@apsjorhat.org', 'apsj#12345678')
+    s.login('group5@apsjorhat.org', 'apsj#12345678')
     message = 'Subject:{} \n\n{}'.format(SUBJECT, TEXT)
-    s.sendmail('group4@apsjorhat.org', email, message)
+    s.sendmail('group5@apsjorhat.org', email, message)
     s.quit()
     return otp
