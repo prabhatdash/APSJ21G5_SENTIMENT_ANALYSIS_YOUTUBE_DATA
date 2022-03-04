@@ -1,7 +1,7 @@
 import auth
 import otp_sender
 import dashboard
-print("ENTER MAIL ID")
+print("▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬ஜ۩۞۩ஜ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n                 ▓▓▓▓▓▒▒▒░░░ WELCOME ░░░▒▒▒▓▓▓▓▓\n▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬ஜ۩۞۩ஜ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n\nEnter your email to login: ")
 email=input()
 if auth.auth_user(email)==1:
     rcv_otp=otp_sender.otp_sender(email)
