@@ -33,13 +33,13 @@ def main_sa():
                 neg += 1
 
     if a == 1:
-        print("Total Positive", pos)
+        print("++++++++++++++++++++++++++\n   Total Positive: ",pos,"\n++++++++++++++++++++++++++")
         main_sa()
     elif a == 2:
-        print("Total Negative", neg)
+        print("++++++++++++++++++++++++++\n   Total Negative: ", neg,"\n++++++++++++++++++++++++++")
         main_sa()
     elif a == 3:
-        print("Total Neutral", neu)
+        print("++++++++++++++++++++++++++\n   Total Neutral: ", neu, "\n++++++++++++++++++++++++++")
         main_sa()
     elif a == 4:
         x = np.random.normal(min(y), max(y), len(y))
